@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this directory to learn node and git",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhir14107/git-test.git"
+  },
+  "author": "Sudhir Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudhir14107/git-test/issues"
+  },
+  "homepage": "https://github.com/sudhir14107/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
